@@ -1,0 +1,27 @@
+:root {
+	--button-color: #ffffff;
+}
+
+.dropdown {
+	width: 300px;
+	display: flex;
+	align-items: center;
+}
+
+.select {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	padding-inline: 10px;
+	user-select: none;
+	cursor: pointer;
+	background-color: var(--button-color);
+}
+
+@media screen and (max-width: 425px) {
+	.dropdown {
+		width: 240px;
+	}
+}
